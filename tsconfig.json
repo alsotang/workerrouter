@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "lib": ["esnext", "webworker"],
+    "target": "es2019",
+    "lib": ["es2019", "webworker"],
     "outDir": "dist",
     "rootDir": "./src",
     "declaration": true
