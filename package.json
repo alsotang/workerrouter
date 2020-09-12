@@ -1,0 +1,29 @@
+{
+  "name": "@alsotang/workerrouter",
+  "version": "1.0.3",
+  "description": "A simple router for Cloudflare Workers.",
+  "main": "dist/router.js",
+  "types": "dist/router.d.ts",
+  "scripts": {
+    "build": "tsc --build",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alsotang/workerrouter.git"
+  },
+  "keywords": [
+    "worker",
+    "cloudflare",
+    "router"
+  ],
+  "author": "alsotang <alsotang@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alsotang/workerrouter/issues"
+  },
+  "homepage": "https://github.com/alsotang/workerrouter#readme",
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  }
+}

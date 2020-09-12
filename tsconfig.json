@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["esnext", "webworker"],
+    "outDir": "dist",
+    "rootDir": "./src",
+    "declaration": true
+  },
+  "include": [
+    "src"
+  ]
+}
