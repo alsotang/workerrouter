@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es2019",
-    "lib": ["es2019", "webworker", "dom"],
+    "lib": ["es2019", "dom"],
     "outDir": "dist",
     "rootDir": "./src",
     "declaration": true
