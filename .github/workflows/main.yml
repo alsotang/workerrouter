@@ -30,6 +30,6 @@ jobs:
       with:
         path: node_modules/
         key: ${{ runner.os }}-node${{ matrix.node-version }}-${{ hashFiles('package*.json') }}
-    - run: npm install
+    - run: npm ci --ignore-script
       if: steps.cache.outputs.cache-hit != 'true'
     - run: npm test
