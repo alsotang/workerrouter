@@ -1,12 +1,12 @@
 {
   "name": "@alsotang/workerrouter",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A simple router for Cloudflare Workers.",
   "main": "dist/router.js",
   "types": "dist/router.d.ts",
   "scripts": {
     "build": "tsc --build",
-    "prepublish": "npm run test && npm run build",
+    "prepublishOnly": "npm run test && npm run build",
     "test": "ava"
   },
   "repository": {
