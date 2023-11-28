@@ -1,4 +1,3 @@
-![test](https://github.com/alsotang/workerrouter/workflows/test/badge.svg)
 # description
 
 A simple router for Cloudflare Workers.
