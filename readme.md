@@ -1,3 +1,5 @@
+**use `itty-router` instead of this package.**
+
 # description
 
 A simple router for Cloudflare Workers.
